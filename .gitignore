@@ -1,0 +1,63 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*~ 
+*.bak
+*.tmp
+*.orig
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Python dependency files
+*.egg-info/
+*.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Cache
+.cache/
+pytest_cache/
+.tox/
+.coverage
+
+# Database files
+*.sqlite3
+*.db
+
+# Static files and uploads
+staticfiles/
+media/
+uploads/
+
+# FastAPI specific
+*.pem  # SSL/TLS keys if any
+*.pid  # Process ID files
+gunicorn_error.log  # Gunicorn logs if used
+
+# Docker specific
+docker-compose.override.yml
+.dockerignore
+
+# Build and distribution
+build/
+dist/
+*.wheel
+
+# Operating System Files
+Thumbs.db
