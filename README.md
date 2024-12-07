@@ -4,7 +4,7 @@ This project is a RESTful API built with **FastAPI**, enabling user authenticati
 
 ## Features
 
-- **User Authentication**: Secure login with JWT tokens.
+- **User Authentication**: Implemented user auth using JWT.
 - **User Management**: Create and retrieve user details.
 - **Visit Requests**: Handle visit requests with organization details and status tracking.
 
@@ -123,44 +123,10 @@ The API will be available at `http://127.0.0.1:8000`.
 - **VisitRequest**:
   - `id`, `organization_name`, `visit_date`, `visit_start_time`, `visit_end_time`, `status`
 
-### Environment Variables
-
-- `SECRET_KEY`: Secret key for JWT token signing.
-- `ACCESS_TOKEN_EXPIRE_MINUTES`: Duration for token expiration.
-
 ### Security
 
 - Passwords are hashed using **bcrypt**.
 - Tokens are signed with a secret key using **HS256** algorithm.
-
-### Future Enhancements
-
-- Add more roles and permissions.
-- Enhance error handling and validation.
-- Integrate Swagger for API documentation.
-
-### Contributing
-
-1. Fork the repository.
-2. Create a new branch:
-
-   ```bash
-   git checkout -b feature-name
-   ```
-
-3. Commit your changes:
-
-   ```bash
-   git commit -m "Add feature name"
-   ```
-
-4. Push to the branch:
-
-   ```bash
-   git push origin feature-name
-   ```
-
-5. Create a pull request.
 
 ### Contact
 
