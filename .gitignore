@@ -8,7 +8,6 @@ venv/
 env/
 
 # Editor and IDE configurations
-.vscode/
 .idea/
 *.swp
 *~ 
@@ -61,3 +60,7 @@ dist/
 
 # Operating System Files
 Thumbs.db
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
