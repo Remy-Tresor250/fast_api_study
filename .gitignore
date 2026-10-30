@@ -20,8 +20,6 @@ env/
 *.log
 
 # Environment variables
-.env
-.env.*
 
 # Python dependency files
 *.egg-info/
@@ -60,7 +58,5 @@ dist/
 
 # Operating System Files
 Thumbs.db
-temp_auto_push.bat
-temp_interactive_push.bat
-.gitignore
-branch_structure.json
+config.bat
+node_modules
